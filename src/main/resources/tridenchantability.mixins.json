@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "me.kall.tridenchantability.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "overwrites": {
+    "conformVisibility": false
+  },
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "EnchantmentCategoryMixin",
+    "ReloadCommandMixin",
+    "TridentItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
